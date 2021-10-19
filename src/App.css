@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -229,7 +236,7 @@ ul{
 }
 
 .align-fb {
-  padding: 15px;
+
   margin-top: 50px;
 
 }
@@ -249,4 +256,8 @@ ul{
 
 .fbLog{
   margin-top: -10px;
+}
+
+.mob-header-padding{
+  margin-top: 20px;
 }

@@ -81,7 +81,7 @@ const WhatsOn = () => {
                 </div>
 
 
-                <div className="col-12 d-block d-md-none">
+                <div className=" col-12 col-md-8 d-block d-lg-none">
                     <div className="row text-center font-nob-p">
                         <div>
                             <FBComponent/>

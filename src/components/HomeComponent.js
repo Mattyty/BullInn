@@ -6,9 +6,8 @@ const Home = () => {
         <div className="container">
             <div className="row-content">
                 <div className="row mb-4">
-                    <img className="col-12 col-md-9 " src="assets/images/pub1.jpg"/>
-
-                    <div className="col-12 d-block d-md-none">
+                    <img className="col-12 col-lg-9 " src="assets/images/pub1.jpg" style={{display: 'flex', alignItems: 'center'}}/>
+                    <div className="col-12 d-block d-lg-none">
                         <div className="container">
                             <div className="row">
                                 <Card className="font-nob-p text-center mt-3 mb-3">
@@ -41,6 +40,7 @@ const Home = () => {
                     <Card className="col-3 font-nob-p text-center pt-3 mt-3 d-none d-lg-block ">
                         <CardBody>
                             <CardTitle style={{
+                                opacity:'',
                                 fontWeight: 'bold',
                                 textDecorationLine: 'underline'
                             }}>Opening
@@ -53,7 +53,9 @@ const Home = () => {
                             <CardText style={{fontWeight: 'bold', textDecorationLine: 'underline'}}>Food
                                 Served:</CardText>
                             <CardText>Monday - Saturday:<br/> 12-2.30pm & 6-8.30pm<br/></CardText>
-                            <CardText>Sunday:<br/> 12-3pm</CardText>
+                            <CardText>Sunday:<br/> 12-3pm</CardText><br/>
+                            <img src="assets/images/logo.png" alt="The Bull Inn" style={{
+                                opacity:'.5'}}/>
                         </CardBody>
                     </Card>
                     <br/>

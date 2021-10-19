@@ -12,7 +12,7 @@ const Footer = () => {
                             Bicester Road, Launton. Oxfordshire<br/>
                             OX26 5DQ<br/>
 
-                            <i class="fa fa-phone fa-lg"></i> Tel: (01869) 248 158<br/>
+                            <i class="fa fa-phone fa-lg"></i> Tel: (01869) 248158<br/>
 
                             <i class="fa fa-envelope fa-lg"></i> Email: <a
                             href="mailto:example@emailAddress">thebullinnlaunton@gmail.com</a>

@@ -34,7 +34,7 @@ class Header extends Component {
                 <div className="container">
                     <div className="row">
                         <div style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center'}}>
-                            <a className=" mt-2 d-none d-lg-block"
+                            <a className=" mt-2 d-none d-md-block"
                                href="https://www.facebook.com/thebullinnlaunton/"><img
                                 src="assets/images/fblogo.png" alt="Facebook" style={{
                                 height: '35px',
@@ -44,15 +44,15 @@ class Header extends Component {
                                 width: '15px'
                             }}>
                             </div>
-                            <NavLink to="/contact" className="btn btn-green align-items-center me-1 d-none d-lg-block"
+                            <NavLink to="/contact" className="btn btn-green align-items-center me-1 d-none d-md-block"
                                ><span className="fa fa-envelope"></span> Message us</NavLink>
                         </div>
                     </div>
-                </div>
-                <div className="d-block d-md-none navbar-sml">
-                    <div className="row">
+
+                <div className="d-block d-lg-none navbar-expand-lg" style={{ alignItems: 'center'}}>
+                    <div className="row mob-header-padding">
                     <Col className="col-10">
-                    <Navbar dark expand="md">
+                    <Navbar dark expand="lg">
                         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nobile"/>
                         <div className="container">
                             <NavbarToggler onClick={this.toggleNav}/>
@@ -90,7 +90,7 @@ class Header extends Component {
                         </div>
                     </Navbar>
                     </Col>
-                    <Col className="col-2 fbLog">
+                    <Col className="col-2 fbLog d-block d-md-none">
                         <a href="https://www.facebook.com/thebullinnlaunton/"><img
                             src="assets/images/fblogo.png" alt="Facebook" style={{
                             height: '35px',
@@ -101,7 +101,7 @@ class Header extends Component {
                 </div>
                 <div className="row">
                     <Jumbotron>
-                        <div className="container">
+
                             <div className="row row-header">
                                 <div className="col-8">
                                     <h1 className="font-nob-main d-none d-lg-block">The Bull Inn, Launton<img
@@ -116,10 +116,10 @@ class Header extends Component {
                                 </div>
                                 <p className="sub-font d-none d-lg-block">A traditional family friendly country pub</p>
                             </div>
-                        </div>
+
                     </Jumbotron>
 
-                    <div className="container">
+
                         <div className="row row-header">
                             <div className="col-8 d-block d-s-none d-lg-none">
                                 <h1 className="font-nob-mobile">The Bull Inn, Launton</h1>
@@ -132,9 +132,9 @@ class Header extends Component {
                         <div className="col-12 blink d-block d-s-none d-lg-none">
                             <p className="sub-font-mobile">A traditional family friendly country pub</p>
                         </div>
-                    </div>
+
                 </div>
-                <div className="container">
+
                     <div className="row">
                         <div className="col-md-5 d-block d-md-none ">
                             <div className="row " style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center'}}>

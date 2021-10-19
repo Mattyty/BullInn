@@ -6,9 +6,9 @@ const onSubmit = (e) => {
 };
 
     const Contact= () => {
-        const [status, setStatus] = useState("Submit");
+        const [ setStatus] = useState("Submit");
         const handleSubmit = async (e) => {
-            e.preventDefault();
+            e.preventDefault();link
             setStatus("Sending...");
             const { name, email, message } = e.target.elements;
             let details = {
